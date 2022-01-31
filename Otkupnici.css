@@ -1,0 +1,50 @@
+.O{
+    display: flex;
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+    align-items: flex-center;
+}
+
+.okviri{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 5px;
+    justify-content: space-between;
+	align-items: center;
+    font-size: 1.2em;
+    font-style: bold;
+    background-color: rgb(23, 221, 66);
+    margin: 15px;
+    padding: 35px;
+    width: "100px";
+    cursor: pointer;
+    font-family: 'Open Sans', sans-serif;  
+}
+
+.img{
+    position: relative;
+}
+
+.Naslov{
+    padding: 3%;
+    font-size: 1.8em;
+    font-weight: bold;
+    color: rgb(211, 147, 28)
+}
+.btnBack{
+    width: 140px;
+    height: 40px;
+    margin: 15px;
+    border-radius: 50px;
+    border-color: rgb(211, 147, 28);
+    cursor: pointer;
+    color: #006b00;
+    background-color:   rgb(23, 221, 66);
+    font-size: 1.1em;
+    transition: all 0.3s ease 0s;
+}
+.btnBack:hover{
+    background-color: rgb(48, 105, 1);
+    color:rgb(240, 241, 233);
+}

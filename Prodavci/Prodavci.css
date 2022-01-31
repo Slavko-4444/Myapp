@@ -1,0 +1,45 @@
+
+.Preduzetnik{
+
+    margin: 10px;
+    padding: 25px;
+    font-size: 25px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+	align-items: center;
+}
+.text{
+   
+    position: relative;
+    float: left;
+}
+.image{
+    position: relative;
+    display: flex;
+} 
+.img{
+    width: 250px;
+    height: 250px;
+}
+.imageI{
+    display: flex;
+    width: 200px;
+    height: 200px;
+}
+.btnBack{
+    width: 140px;
+    height: 40px;
+    margin: 15px;
+    border-radius: 50px;
+    border-color: rgb(211, 147, 28);
+    cursor: pointer;
+    color: #006b00;
+    background-color:   rgb(23, 221, 66);
+    font-size: 1.1em;
+    transition: all 0.3s ease 0s;
+}
+.btnBack:hover{
+    background-color: rgb(48, 105, 1);
+    color:rgb(240, 241, 233);
+}
